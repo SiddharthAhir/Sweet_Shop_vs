@@ -74,53 +74,107 @@
 
     <!-- slider -->
     <div class="slick-slider">
-        <div class="main-slider">
-            <div class="slider-img">
-                <img src="./img/slider.png" alt="">
+        <div class="allmobile">
+            <div class="main-slider">
+                <div class="slider-img">
+                    <img src="./img/slider.png" alt="">
+                </div>
+                <div class="slider">
+                    <div class="container">
+                        <div class="slider-description">
+                            <h2>Title Here</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae
+                                vestibulum.</p>
+                            <a href="#">order now</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="slider">
-                <div class="container">
-                    <div class="slider-description">
-                        <h2>Title Here</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae
-                            vestibulum.</p>
-                        <a href="#">order now</a>
+    
+            <div class="main-slider">
+                <div class="slider-img">
+                    <img src="./img/slider.png" alt="">
+                </div>
+                <div class="slider">
+                    <div class="container">
+                        <div class="slider-description">
+                            <h2>Title Here</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae
+                                vestibulum. </p>
+                            <a href="#">order now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="main-slider">
+                <div class="slider-img">
+                    <img src="./img/slider.png" alt="">
+                </div>
+                <div class="slider">
+                    <div class="container">
+                        <div class="slider-description">
+                            <h2>Title Here</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae
+                                vestibulum. </p>
+                            <a href="#">order now</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="main-slider">
-            <div class="slider-img">
-                <img src="./img/slider.png" alt="">
-            </div>
-            <div class="slider">
-                <div class="container">
-                    <div class="slider-description">
-                        <h2>Title Here</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae
-                            vestibulum. </p>
-                        <a href="#">order now</a>
+        <div class="laptop">
+            <div class="main-slider">
+                <div class="slider-img">
+                    <img src="./img/slider.png" alt="">
+                </div>
+                <div class="slider">
+                    <div class="container">
+                        <div class="slider-description">
+                            <h2>Title Here</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae
+                                vestibulum.</p>
+                            <a href="#">order now</a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div class="main-slider">
-            <div class="slider-img">
-                <img src="./img/slider.png" alt="">
-            </div>
-            <div class="slider">
-                <div class="container">
-                    <div class="slider-description">
-                        <h2>Title Here</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae
-                            vestibulum. </p>
-                        <a href="#">order now</a>
+    
+            <div class="main-slider">
+                <div class="slider-img">
+                    <img src="./img/slider.png" alt="">
+                </div>
+                <div class="slider">
+                    <div class="container">
+                        <div class="slider-description">
+                            <h2>Title Here</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae
+                                vestibulum. </p>
+                            <a href="#">order now</a>
+                        </div>
                     </div>
                 </div>
             </div>
+    
+            <div class="main-slider">
+                <div class="slider-img">
+                    <img src="./img/slider.png" alt="">
+                </div>
+                <div class="slider">
+                    <div class="container">
+                        <div class="slider-description">
+                            <h2>Title Here</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae
+                                vestibulum. </p>
+                            <a href="#">order now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
         </div>
+       
 
     </div>
 
@@ -221,9 +275,14 @@
                 $(".monav").slideToggle("slow");
             });
 
-            $('.slick-slider').slick({
+            $('.allmobile').slick({
                 prevArrow: '<i class="fa-solid fa-arrow-left-long"></i>',
                 nextArrow: '<i class="fa-solid fa-arrow-right-long"></i>'
+            });
+            $('.laptop').slick({
+                // prevArrow: '<i class="fa-solid fa-arrow-left-long"></i>',
+                // nextArrow: '<i class="fa-solid fa-arrow-right-long"></i>'
+                arrows: false
             });
         });
     </script>
