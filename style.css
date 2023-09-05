@@ -115,6 +115,10 @@ body {
     color: #000000;
 }
 
+.laptop{
+    display: none;
+}
+
 /* POPULAR MENU */
 .popular-menu-main {
     background-color: #21243d;
@@ -746,6 +750,14 @@ header {
 
 
 @media only screen and (min-width: 1024px) {
+
+    .allmobile{
+        display: none;
+    }
+
+    .laptop{
+        display: block;
+    }
 
     .fa-arrow-right-long {
         top: 50%;
