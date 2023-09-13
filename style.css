@@ -713,7 +713,7 @@ header {
     }
 
     .icons img {
-        width: 10%;
+        width: 8%;
     }
 
     .icons {
@@ -885,7 +885,7 @@ header {
     }
 
     .icons img {
-        width: 16%;
+        width: 12%;
     }
 
     .icons {
@@ -971,7 +971,7 @@ header {
     }
 
     .icons img {
-        width: 13%;
+        width: 12%;
     }
 
     .icons {
@@ -1079,6 +1079,10 @@ header {
 /* 1920 */
 @media only screen and (min-width: 1920px) {
 
+    .container {
+        padding: 0px 5px;
+    }
+
     .logo img {
         width: 140%;
     }
@@ -1109,7 +1113,7 @@ header {
     }
 
     .slider-description h2 {
-        font-size: 112px;
+        font-size: 122px;
     }
 
     .slider-description p {
@@ -1154,7 +1158,7 @@ header {
     }
 
     .icons img {
-        width: 11%;
+        width: 14%;
     }
 
     .icons {
