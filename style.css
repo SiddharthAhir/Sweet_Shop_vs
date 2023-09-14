@@ -36,13 +36,13 @@ body {
 /* SLIDER */
 
 .fa-arrow-left-long {
-    color: #000000;
+    color: #fff;
     top: 16%;
     position: absolute;
     z-index: 1;
     left: 7px;
     cursor: pointer;
-    border: 1px solid white;
+    border: 1px solid #fff;
     padding: 2px 2px;
 }
 
@@ -57,13 +57,13 @@ body {
 }
 
 .fa-arrow-right-long {
-    color: #000000;
+    color: #fff;
     top: 16%;
     position: absolute;
     z-index: 1;
     right: 7px;
     cursor: pointer;
-    border: 1px solid white;
+    border: 1px solid #fff;
     padding: 2px 2px;
 }
 
@@ -361,7 +361,7 @@ header {
 }
 
 .icons img {
-    width: 18%;
+    width: 15%;
 }
 
 .icons {
@@ -856,6 +856,7 @@ header {
     .footer {
         padding: 45px 0px 45px 0px;
         flex-direction: row;
+        text-align: left;
     }
 
     .right-footer a {
@@ -890,6 +891,7 @@ header {
 
     .icons {
         gap: 20px;
+        justify-content: left;
     }
 
 }
